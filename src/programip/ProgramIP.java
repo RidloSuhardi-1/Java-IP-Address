@@ -12,8 +12,8 @@ public class ProgramIP {
         try {
             InetAddress address = InetAddress.getByName("www.polinema.ac.id");
             InetAddress address2 = InetAddress.getByName("114.6.41.77"); // menggunakan jaringan luar
-            System.out.println("" + address.getHostAddress());
-            System.out.println("" + address2.getHostName());
+            System.out.println("" + address.getHostName());
+            System.out.println("" + address2.getHostAddress());
             if (address.equals(address2)) {
                 System.out.println("Alamat sama");
             } else {
